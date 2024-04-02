@@ -21,6 +21,10 @@ footer{
     width: 80vw;
     margin: 0 auto;
 }
+.container2{
+    width: 60vw;
+    margin: 0 auto;
+}
 .list-container{
     width: 200px;
     margin-top: 85px;
@@ -42,8 +46,35 @@ footer{
 .col-img{
     width: calc(100% /3 *2);
 }
+.col-box{
+    width: 25vw;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 700px;
+}
+.col-box-big{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+}
+.gap{
+    gap: 10px;
+}
 .align-left{
     text-align: left;
+}
+.box-title{
+    text-align: center;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
 }
 .just-between{
     justify-content: space-between;
@@ -53,6 +84,10 @@ footer{
 }
 .align-cent{
     align-items: center;
+}
+.area{
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 .margin-footer{
     margin-left: 25px;
@@ -90,6 +125,12 @@ footer{
 .desc1{
     font-family: sans-serif;
     font-size: 25px;
+}
+.plan-txt{
+    color: black;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
 }
 .b-txt-link{
     text-decoration-line: none;
