@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     height: 150px;
@@ -8,11 +9,27 @@ header{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+footer{
+    background-color: black;
+    height: 650px;
+    width: 100vw;
+}
 .flex{
     display: flex;
 }
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+.list-container{
+    width: 200px;
+    margin-top: 85px;
+}
 .just-between{
     justify-content: space-between;
+}
+.just-around{
+    justify-content: space-around;
 }
 .align-cent{
     align-items: center;
@@ -21,7 +38,12 @@ header{
     margin-left: 25px;
     margin-right: 25px;
 }
-
+.f-list{
+    list-style-type: none;
+}
+.f-list li{
+    padding-top: 15px;
+}
 .u-list{
     list-style-type: none;
     margin-left: 10px;
@@ -33,9 +55,21 @@ header{
     padding-left: 50px; 
     
 }
+.list-index{
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
 .b-txt-link{
     text-decoration-line: none;
     color: black;
+    font-family: sans-serif;
+}
+.w-txt-link{
+    text-decoration-line: none;
+    color: white;
+    font-family: sans-serif;
+    
 }
 .b-accedi{
     background-color:white ;
