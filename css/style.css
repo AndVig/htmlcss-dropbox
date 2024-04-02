@@ -25,6 +25,16 @@ footer{
     width: 200px;
     margin-top: 85px;
 }
+.lang-container{
+  position: relative;
+  left: 0;
+  height: 30px;
+  width: 100px;
+  margin-top: 150px;
+}
+.box{
+    border-top: 5px;
+}
 .just-between{
     justify-content: space-between;
 }
