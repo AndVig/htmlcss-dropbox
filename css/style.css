@@ -61,8 +61,7 @@ footer{
 }
 .square-small{
     height: calc(100%/2);
-    width: calc(100%/2);
-    padding: auto;
+    width: calc(100%/2);    
 }
 .col-txt{
     width: calc(100% / 3);
@@ -233,6 +232,8 @@ footer{
 }
 .op-img{
     width: 100%;
+    display: block;
+    margin: auto;   
 }
 .center{
     object-fit: fill;
