@@ -121,6 +121,21 @@ footer{
     margin-bottom: 100px;
     padding-right: 50px;
 }
+.block-img{
+   width: 350px;
+   margin: 50px auto;
+   margin-left: 10%;
+   
+}
+.block-txt{
+    width: 80%;
+   margin: 50px auto;
+   margin-left: 10%;
+}
+hr{
+    width: 150px;
+    margin-left: 70px;
+}
 .f-list{
     list-style-type: none;
 }
@@ -153,6 +168,10 @@ footer{
 .desc1{
     font-family: sans-serif;
     font-size: 25px;
+}
+.desc2{
+    font-family: sans-serif;
+    font-size: 20px;
 }
 .partner-title-text{
     font-family: sans-serif;
@@ -231,14 +250,27 @@ footer{
     width: 90%;
 }
 .op-img{
-    width: 100%;
     display: block;
-    margin: auto;   
+     width: 100%;
+}
+
+.square-small:hover{
+    border: 10px;
+    border-color: rgba(255, 255, 255, 0.303);
+    border-style: solid;
+
 }
 .center{
     object-fit: fill;
     height: inherit;
     width: inherit;
+    filter: invert(100%);
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+.initial{
+    transform: scaleY(25%);
 }
 .green{
     background-color: lightgreen;
@@ -259,5 +291,8 @@ footer{
     background-color: lightsteelblue;
 }
 .yellow{
-    background-color: yellow;
+    background-color:gold;
+}
+.grey{
+    background-color: lightgrey;
 }
