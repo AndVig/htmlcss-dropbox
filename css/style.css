@@ -57,7 +57,6 @@ footer{
 .h-square-big{
     height: calc(100vw/3);
     width:calc(100vw/3) ;
-    margin-bottom: 300px;
 }
 .square-small{
     height: calc(100%/2);
@@ -88,6 +87,9 @@ footer{
 .gap{
     gap: 10px;
 }
+.gap2{
+    gap: 20px;
+}
 .align-left{
     text-align: left;
 }
@@ -112,6 +114,10 @@ footer{
 .area{
     margin-top: 200px;
     margin-bottom: 20px;
+}
+.area2{
+    padding-top: 150px;
+    padding: 150px;
 }
 .margin-footer{
     margin-left: 25px;
@@ -271,6 +277,12 @@ hr{
 }
 .initial{
     transform: scaleY(25%);
+}
+.brown-txt{
+    color: brown;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .green{
     background-color: lightgreen;
