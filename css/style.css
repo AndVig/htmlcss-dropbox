@@ -30,6 +30,10 @@ footer{
     width: 60vw;
     margin: 0 auto;
 }
+.container3{
+    width: 80%;
+    margin: 0 auto;
+}
 .list-container{
     width: 200px;
     margin-top: 85px;
@@ -73,7 +77,7 @@ footer{
     border: 1px;
     border-color: black;
     border-style: solid;
-    height: 700px;
+    height: 750px;
 }
 .col-box-big{
     border: 1px;
@@ -160,6 +164,16 @@ hr{
     font-weight: bold;
     padding-bottom: 15px;
 }
+.prova-space{
+    margin-left:20%;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.line{
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .u-list{
     list-style-type: none;
     margin-left: 10px;
@@ -182,6 +196,23 @@ hr{
     font-weight: bold;
     padding-top: 100px;
     padding-bottom: 70px;
+}
+.plan-box-txt{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.plan-price-txt{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+}   
+.gray-txt{
+    color: lightgray;
 }
 .desc1{
     font-family: sans-serif;
@@ -319,4 +350,17 @@ hr{
 }
 .grey{
     background-color: lightgrey;
+}
+.ent{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.ent-space{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.top1{
+    margin-top: 100px;
 }
